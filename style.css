@@ -8,6 +8,9 @@
     padding: 20px;
     text-align: center;
 }
+.body {
+    
+}
 
 .nav a {
     color: #fff;
@@ -17,4 +20,31 @@
 
 .nav a:hover {
     text-decoration: underline;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.projects {
+    // container to hold project image + discription 
+    // will be a button linked to where the project is within my github
+}
+
+.projTitle {
+    
+
 }
