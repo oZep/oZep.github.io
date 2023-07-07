@@ -8,9 +8,6 @@
     padding: 20px;
     text-align: center;
 }
-.body {
-    
-}
 
 .nav a {
     color: #fff;
@@ -37,14 +34,4 @@ a:hover {
 
 a:active {
     text-decoration: none;
-}
-
-.projects {
-    // container to hold project image + discription 
-    // will be a button linked to where the project is within my github
-}
-
-.projTitle {
-    
-
 }
