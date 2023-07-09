@@ -9,21 +9,21 @@
 </head>
 
 <header>
-  <nav class="bg-white p-2 mt-0 fixed w-full z-10 top-0 m-8">
+  <nav class="bg-white p-2 mt-0 fixed w-full z-10 top-0">
     <ul class="flex space-x-4">
-      <li><a href="#home" class="hover:text-gray-300">Home</a></li>
-      <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
-      <li><a href="#challenges" class="hover:text-gray-300">Challenges</a></li>
-      <li><a href="#contact" class="hover:text-gray-300">Contact Me</a></li>
+      <li><a href="#home" class="hover:text-gray-300 font-medium text-base">Home</a></li>
+      <li><a href="#projects" class="hover:text-gray-300 font-medium text-base">Projects</a></li>
+      <li><a href="#challenges" class="hover:text-gray-300 font-medium text-base">Challenges</a></li>
+      <li><a href="#contact" class="hover:text-gray-300 font-medium text-base">Contact Me</a></li>
     </ul>
   </nav>
 </header>
 
-<body>
+<body class="overflow-x-hidden">
 
 <main>
 <section class="sticky top-0 z-50 w-full bg-gray-900 text-white py-4 px-6" data-scroll-section>
-  <div class="container mx-auto px-4">
+  <div class="container mx-2 px-1">
     <nav>
       <div class="grid md:grid-flow-col gap-4 lg:gap-16 text-center my-11">
           <a class="inline-block m-10  text-2xl font-medium px-4 py-2 border-rose-400 border-8 border-double border-transparent hover:border-green-400 focus:border-green-400 rounded-md transition" href="#home" data-scroll-to>
@@ -44,35 +44,67 @@
 </section>
 </main>
 
-    <section id="home">
-      <div class ="max-w-sm mx-auto flex p-10 rounded-lg shadow-xl">
+    <section id="home" class="inline-block m-10">
+      <div class ="max-w-sm mx-auto flex p-10 rounded-lg shadow-xl w-full">
       <h2 class="text-2xl font-bold">Hello!</h2>
-      <p>Body Text that will eventually tell you what this is all about!</p>
+      <p class="m-11">Body Text that will eventually tell you what this is all about!</p>
     </div>
     </section>
 
-    <section id="projects" class="flex p-100 max-w-sm mx-auto mb-10">
+    <section id="projects" class="inline-block m-10">
       <!-- Projects section content --> 
       <h2 class="text-2xl font-bold">Projects</h2>
+       <!-- Project list starts here --> 
+      <div class="max-w-sm mx-auto flex p-10 rounded-lg shadow-xl w-full">
+          <!-- Project link --> 
+        <a href="https://github.com/oZep/TheGivingTree">
+          <!-- Project name --> 
+          <p class="text-lg font-semibold">The Giving Tree</p>
+          <div class="container h-auto text-center">
+            <img src="images/GivingTree.png" alt="Cover Image for The Giving Tree" class="overflow-hidden">
+          </div>
+          <!-- Project description --> 
+          <p class="text-sm">June 2023 Game Jam Submission for the UOttawa Game Dev Club</p>
+        </a>
+      </div>
+      <div class="max-w-sm mx-auto flex p-10 rounded-lg shadow-xl w-full">
+        <!-- Project link --> 
       <a href="https://github.com/oZep/TheGivingTree">
-        <div class="container mx-auto text-center">
-          <img src="images/GivingTree.png" alt="Cover Image for The Giving Tree" class="w-50 h-auto mb-5">
-        </div>
+        <!-- Project name --> 
         <p class="text-lg font-semibold">The Giving Tree</p>
+        <div class="container h-auto text-center">
+          <img src="images/GivingTree.png" alt="Cover Image for The Giving Tree" class="overflow-hidden">
+        </div>
+        <!-- Project description --> 
         <p class="text-sm">June 2023 Game Jam Submission for the UOttawa Game Dev Club</p>
       </a>
+    </div>
+    <div class="max-w-sm mx-auto flex p-10 rounded-lg shadow-xl w-full">
+      <!-- Project link --> 
+    <a href="https://github.com/oZep/TheGivingTree">
+      <!-- Project name --> 
+      <p class="text-lg font-semibold">The Giving Tree</p>
+      <div class="container h-auto text-center">
+        <img src="images/GivingTree.png" alt="Cover Image for The Giving Tree" class="overflow-hidden">
+      </div>
+      <!-- Project description --> 
+      <p class="text-sm">June 2023 Game Jam Submission for the UOttawa Game Dev Club</p>
+    </a>
+  </div>
       <!-- Add more projects here -->
     </section>
 
-    <section id="challenges" class="flex p-100 max-w-sm mx-auto m-19 mb-10">
+    <section id="challenges" class="inline-block m-10 w-full">
       <!-- Challenges section content -->
       <h2 class="text-2xl font-bold">Competitions & Hackathons</h2>
     </section>
 
-    <footer>
-      <section id="contact" class="py-40">
+    <footer class="inline-block w-full bg-gray-900">
+      <section id="contact" class="py-20 m-10 text-2xl font-bold text-white w-full">
         <!-- Contact section content -->
-        <h2 class="text-2xl font-bold">Contact Me</h2>
+        <h2>Contact Me</h2>
+        <p>Email</p>
+        <p>Linkedin</p>
       </section>
     </footer>
 
