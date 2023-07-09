@@ -1,65 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
+   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Include the Tailwind CSS CDN -->
-  <link href="https://cdn.tailwindcss.com/2.2.19/tailwind.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link href="output.css" rel="stylesheet">
   <title>My Personal Website</title>
   
 </head>
-<body>
-<center>
-  <main>
-    <section id="home" class="py-40">
-      <!-- Home section content -->
-      <h2 class="text-2xl font-bold">Hello!</h2>
-      <p>Body Text that will eventually tell you what this is all about!</p>
-    </section>
 
-    <section class="py-40" data-scroll-section>
-      <div class="container mx-auto px-4">
-        <nav>
-          <ul class="grid md:grid-flow-col gap-4 lg:gap-16 justify-center text-center">
-            <li>
-              <a class="inline-block text-2xl font-medium px-4 py-2 border-4 border-double border-transparent hover:border-green-400 focus:border-green-400 rounded-md transition" href="#home" data-scroll-to>
-                About Me
-              </a>
-            </li>
-            <li>
-              <a class="inline-block text-2xl font-medium px-4 py-2 border-4 border-double border-transparent hover:border-green-400 focus:border-green-400 rounded-md transition" href="#projects" data-scroll-to>
-                Projects
-              </a>
-            </li>
-            <li>
-              <a class="inline-block text-2xl font-medium px-4 py-2 border-4 border-double border-transparent hover:border-green-400 focus:border-green-400 rounded-md transition" href="#challenges" data-scroll-to>
-                Challenges & Awards
-              </a>
-            </li>
-            <li>
-              <a class="inline-block text-2xl font-medium px-4 py-2 border-4 border-double border-transparent hover:border-green-400 focus:border-green-400 rounded-md transition" href="#contact" data-scroll-to>
-                Contact Me
-              </a>
-            </li>
-          </ul>
-        </nav>
+<header>
+  <nav class="bg-white p-5 mt-5 fixed w-full z-10 top-0">
+    <ul class="flex space-x-4">
+      <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+      <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+      <li><a href="#challenges" class="hover:text-gray-300">Challenges</a></li>
+      <li><a href="#contact" class="hover:text-gray-300">Contact Me</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="sticky top-0 z-50 w-full bg-gray-900 text-white py-4 px-6" data-scroll-section>
+  <div class="container mx-auto px-4">
+    <nav>
+      <div class="grid md:grid-flow-col gap-4 lg:gap-16 text-center my-11">
+          <a class="inline-block m-10  text-2xl font-medium px-4 py-2 border-rose-400 border-8 border-double border-transparent hover:border-green-400 focus:border-green-400 rounded-md transition" href="#home" data-scroll-to>
+            About Me
+          </a>
+          <a class="inline-block m-10  text-2xl font-medium px-4 py-2 border-rose-400 border-8 border-double border-transparent hover:border-green-400 focus:border-green-400 rounded-md transition" href="#projects" data-scroll-to>
+            Projects
+          </a>
+          <a class="inline-block m-10 text-2xl font-medium px-4 py-2 border-rose-400 border-8 border-double border-transparent hover:border-green-400 focus:border-green-400 rounded-md transition" href="#challenges" data-scroll-to>
+            Challenges & Awards
+          </a>
+          <a class="inline-block m-10 text-2xl font-medium px-4 py-2 border-rose-400 border-8 border-double border-transparent hover:border-green-400 focus:border-green-400 rounded-md transition" href="#contact" data-scroll-to>
+            Contact Me
+          </a>
       </div>
-    </section>
+    </nav>
+  </div>
+</section>
 
-    <section id="home" class="py-40">
-      <!-- Home section content -->
+
+<body>
+  <main>
+
+    <section id="home">
+      <div class ="max-w-sm mx-auto flex p-10 rounded-lg shadow-xl">
       <h2 class="text-2xl font-bold">Hello!</h2>
       <p>Body Text that will eventually tell you what this is all about!</p>
+    </div>
     </section>
 
-    <section id="projects" class="py-40">
-      <!-- Projects section content -->
+    <section id="projects" class="flex p-100 max-w-sm mx-auto mb-10">
+      <!-- Projects section content --> 
       <h2 class="text-2xl font-bold">Projects</h2>
       <a href="https://github.com/oZep/TheGivingTree">
         <div class="container mx-auto text-center">
-          <img src="images/GivingTree.png" alt="Cover Image for The Giving Tree" class="w-50 img-fluid mb-2">
+          <img src="images/GivingTree.png" alt="Cover Image for The Giving Tree" class="w-50 h-auto mb-5">
         </div>
         <p class="text-lg font-semibold">The Giving Tree</p>
         <p class="text-sm">June 2023 Game Jam Submission for the UOttawa Game Dev Club</p>
@@ -67,7 +64,7 @@
       <!-- Add more projects here -->
     </section>
 
-    <section id="challenges" class="py-40">
+    <section id="challenges" class="flex p-100 max-w-sm mx-auto m-19 mb-10">
       <!-- Challenges section content -->
       <h2 class="text-2xl font-bold">Competitions & Hackathons</h2>
     </section>
@@ -80,10 +77,6 @@
     </footer>
   </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</center>
-<script src="scroll.js"></script>
+  <script src="scroll.js"></script>
 </body>
 </html>
