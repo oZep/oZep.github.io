@@ -77,3 +77,15 @@ a:active {
     width: 20px;
     background: black;
 }
+
+.center-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+.center-icon img {
+            max-width: 100%;
+            height: auto;
+}
