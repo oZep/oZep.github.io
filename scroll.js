@@ -17,3 +17,32 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   
+document.addEventListener('DOMContentLoaded', function () {
+  let projects = document.querySelectorAll('.project');
+  let rotationInterval;
+  
+  function rotateProjects() {
+      let activeProject = document.querySelector('.project.active');
+      let nextProject = activeProject.nextElementSibling || projects[0];
+      activeProject.classList.remove('active');
+      nextProject.classList.add('active');
+  }
+
+  function startRotation() {
+      rotationInterval = setInterval(rotateProjects, 60000); // 1 minute interval
+  }
+
+  function stopRotation() {
+      clearInterval(rotationInterval);
+  }
+
+  projects.forEach(project => {
+      project.addEventListener('click', function () {
+          if (this.classList.contains('active')) {
+              stopRotation();
+          }
+      });
+  });
+
+  startRotation();
+});

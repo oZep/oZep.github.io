@@ -11,6 +11,29 @@
 
 .body {
     transition: background-color 0.2s ease-in-out; 
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+}
+
+.navbar {
+  margin-top: 0;
+  z-index: 2;
+}
+
+.navbar-expand-md .navbar-nav {
+  padding-top: 0;
+  z-index: 1;
+}
+
+.navbar-expand-md .navbar-toggler {
+  margin-top: 0.25rem;
+  z-index: 1;
+}
+
+.navbar-expand-md .navbar-collapse {
+  margin-top: 1rem;
+  z-index: 1;
 }
 
 .nav a {
@@ -77,15 +100,31 @@ a:active {
     width: 20px;
     background: black;
 }
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    z-index: -1;
+    filter: brightness(70%) contrast(90%) sepia(10%) grayscale(10%) blur(2px);
+}
 
 .center-icon {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 3rem;
 }
 
-.center-icon img {
-    max-width: 100%;
-    height: auto;
-}
+
