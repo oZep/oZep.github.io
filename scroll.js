@@ -53,15 +53,16 @@ document.addEventListener("DOMContentLoaded", function() {
   let modal = document.getElementById("projectModal");
   let modalTitle = document.getElementById("modalTitle");
   let modalDescription = document.getElementById("modalDescription");
+  let modalLink = document.getElementById("modalLink");
   let modalImage = document.getElementById("modalImage");
 
   carouselItems.forEach(item => {
-      item.addEventListener("click", function() {
-        modalTitle.innerText = item.dataset.title;
-        modalDescription.innerText = item.dataset.description;
-        modalImage.src = item.dataset.image;
-        $('#projectModal').modal('show');
-      });
+    item.addEventListener("click", function() {
+      modalTitle.innerText = item.dataset.title;
+      modalDescription.innerText = item.dataset.description;
+      modalLink.href = item.dataset.link;
+      modalImage.src = item.dataset.image;
+      $('#projectModal').modal('show');
+    });
   });
 });
-
