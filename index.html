@@ -85,49 +85,72 @@
     </div>
     </section>
 
-    <section id="projects" class="max-w-max bg-black text-white py-1 my-10">
+    <section id="projects" class="container-fluid bg-black text-white py-1 my-10">
       <!-- Projects section content --> 
       <a href="#projects"><h1 class="text-2xl font-bold pt-11 mx-4 text-white">Projects</h1></a>
        <!-- Project list starts here --> 
       <rowgroup class="flex overflow-x-auto" id="style-1">
-            <div class="max-w-sm mx-auto p-10 rounded-lg w-full align-middle flex-shrink-0">
-                <!-- Project link --> 
-              <a href="https://github.com/oZep/TheGivingTree">
-                <!-- Project name --> 
-                <p class="text-lg font-semibold">The Giving Tree</p>
-                <div class="container h-auto text-center">
-                  <img src="images/GivingTree.png" alt="Cover Image for The Giving Tree" class="overflow-hidden">
-                </div>
-                <!-- Project description --> 
-                <p class="text-sm">June 2023 Game Jam Submission for the UOttawa Game Dev Club</p>
-              </a>
-            </div>
-            <div class="max-w-sm mx-auto p-10 rounded-lg w-full align-middle flex-shrink-0">
-              <!-- Project link --> 
-            <a href="https://github.com/oZep/TheGivingTree">
-              <!-- Project name --> 
+        <div class="max-w-sm mx-auto p-10 rounded-lg w-full align-middle flex-shrink-0 project-item"
+          data-title="The Giving Tree"
+          data-description="June 2023 Game Jam Submission for the UOttawa Game Dev Club"
+          data-image="images/GivingTree.png">
+          <!-- Project link -->
+          <!--<a href="https://github.com/oZep/TheGivingTree">-->
+              <!-- Project name -->
               <p class="text-lg font-semibold">The Giving Tree</p>
               <div class="container h-auto text-center">
                 <img src="images/GivingTree.png" alt="Cover Image for The Giving Tree" class="overflow-hidden">
               </div>
-              <!-- Project description --> 
+              <!-- Project description -->
+              <p class="text-sm">June 2023 Game Jam Submission for the UOttawa Game Dev Club</p>
+          </a>
+        </div>
+        <div class="max-w-sm mx-auto p-10 rounded-lg w-full align-middle flex-shrink-0 project-item"
+            data-title="The Giving Tree"
+            data-description="June 2023 Game Jam Submission for the UOttawa Game Dev Club"
+            data-image="images/GivingTree.png">
+            <!-- Project link -->
+            <!--<a href="https://github.com/oZep/TheGivingTree">-->
+              <!-- Project name -->
+              <p class="text-lg font-semibold">The Giving Tree</p>
+              <div class="container h-auto text-center">
+                  <img src="images/GivingTree.png" alt="Cover Image for The Giving Tree" class="overflow-hidden">
+              </div>
+              <!-- Project description -->
               <p class="text-sm">June 2023 Game Jam Submission for the UOttawa Game Dev Club</p>
             </a>
-          </div>
-          <div class="max-w-sm mx-auto p-10 rounded-lg w-full align-middle flex-shrink-0">
-            <!-- Project link --> 
-          <a href="https://github.com/oZep/TheGivingTree">
-            <!-- Project name --> 
-            <p class="text-lg font-semibold">The Giving Tree</p>
-            <div class="container h-auto text-center">
-              <img src="images/GivingTree.png" alt="Cover Image for The Giving Tree" class="overflow-hidden">
-            </div>
-            <!-- Project description --> 
-            <p class="text-sm">June 2023 Game Jam Submission for the UOttawa Game Dev Club</p>
-          </a>
+        </div> 
+        <div class="max-w-sm mx-auto p-10 rounded-lg w-full align-middle flex-shrink-0 project-item"
+            data-title="The Giving Tree"
+            data-description="June 2023 Game Jam Submission for the UOttawa Game Dev Club"
+            data-image="images/GivingTree.png">
+            <!-- Project link -->
+            <!--<a href="https://github.com/oZep/TheGivingTree">-->
+              <!-- Project name -->
+              <p class="text-lg font-semibold">The Giving Tree</p>
+              <div class="container h-auto text-center">
+                  <img src="images/GivingTree.png" alt="Cover Image for The Giving Tree" class="overflow-hidden">
+              </div>
+              <!-- Project description -->
+              <p class="text-sm">June 2023 Game Jam Submission for the UOttawa Game Dev Club</p>
+            </a>
         </div>
           <!-- Add more projects here -->
     </rowgroup>
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="modalTitle"></h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <img id="modalImage" class="img-fluid mb-3" alt="">
+               <p id="modalDescription"></p>
+            </div>
+         </div>
+      </div>
+   </div>   
   </section>
 
   <div class="py-6 w-full" id="challenges">

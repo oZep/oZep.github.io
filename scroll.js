@@ -46,3 +46,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
   startRotation();
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  let carouselItems = document.querySelectorAll(".project-item");
+  let modal = document.getElementById("projectModal");
+  let modalTitle = document.getElementById("modalTitle");
+  let modalDescription = document.getElementById("modalDescription");
+  let modalImage = document.getElementById("modalImage");
+
+  carouselItems.forEach(item => {
+      item.addEventListener("click", function() {
+        modalTitle.innerText = item.dataset.title;
+        modalDescription.innerText = item.dataset.description;
+        modalImage.src = item.dataset.image;
+        $('#projectModal').modal('show');
+      });
+  });
+});
+
