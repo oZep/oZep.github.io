@@ -50,34 +50,51 @@ body {
 }
 
 
-/* styles.css */
-.typed-text {
-    display: inline-block;
-    font-size: 3em;
-    text-align: left;
-    overflow: hidden;
-}
-
 .letter {
     display: inline-block;
     transform: scale(0,1);
     transform-origin: 0 100%;
-    animation: fillIn 0.8s forwards ease-out;
+    animation: fillIn 10.0s forwards ease-out;
     opacity: 0;
 }
 
-#cursor {
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.link-button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+}
+
+.button-content {
+    display: flex;
+    align-items: center;
+    background-color: #007bff; /* Adjust button color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button-content img {
+    width: 30px; /* Adjust icon size */
+    margin-right: 10px;
+}
+
+.button-content::before {
+    content: attr(data-image-id);
     position: absolute;
-    left: 0;
-    animation: blink 1s infinite;
-}
-
-.container {
-    text-align: center;
-}
-
-.letter {
-    font-size: 5em;
-    opacity: 0;
-    display: inline-block;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust background color */
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 12px;
 }

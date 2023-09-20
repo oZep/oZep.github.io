@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Link'd</title>
-      <link rel="stylesheet" href="static/css/styles.css">
+      <link rel="stylesheet" href="/static/css/styles.css">
       <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   </head>
   <body class="bg-black text-white font-sans">
@@ -22,17 +22,44 @@
           </div>
 
           <div class="links">
-              <a href="https://www.linkedin.com/in/yourusername" class="btn">LinkedIn</a>
-              <a href="https://github.com/yourusername" class="btn">GitHub</a>
-              <a href="https://yourwebsite.com" class="btn">Website</a>
-              <a href="https://youritchio.itch.io/" class="btn">Itch.io</a>
-              <a href="https://devpost.com/yourusername" class="btn">Devpost</a>
+              <div class="button-container">
+                <a href="https://www.linkedin.com/in/yourusername" class="link-button">
+                    <div class="button-content">
+                        <img src="/assets/icons/linkedin-icon.png" alt="LinkedIn Logo" class="button-icon">
+                        LinkedIn
+                    </div>
+                </a>
+                <a href="https://github.com/yourusername" class="link-button">
+                  <div class="button-content">
+                      <img src="/assets/icons/github-icon.png" alt="Github Logo" class="button-icon">
+                      Github
+                  </div>
+                </a>
+                <a href="https://yourwebsite.com" class="link-button">
+                  <div class="button-content">
+                      <img src="/assets/icons/prot-icon.png" alt="Website Logo" class="button-icon">
+                      Portfolio
+                  </div>
+                </a>
+                <a href="https://youritchio.itch.io/" class="link-button">
+                  <div class="button-content">
+                      <img src="/assets/icons/itch-icon.png" alt="Itch.io Logo" class="button-icon">
+                      Itch.io
+                  </div>
+              </a>
+              <a href="https://devpost.com/yourusername" class="link-button">
+                <div class="button-content">
+                    <img src="/assets/icons/devpost-icon.png" alt="Devpost Logo" class="button-icon">
+                    Devpost
+                </div>
+              </a>
+            </div>
           </div>
 
           <div class="github-link">
               <a href="https://github.com/yourusername" class="github-btn">GitHub Repository</a>
           </div>
       </div>
-    <script src="static/javascript/index.js"></script>
+    <script src="/static/javascript/index.js"></script>
   </body>
 </html>
