@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (index === 4) {
                     letter.innerHTML = '&nbsp;';
                 } else {
-                    letter.textContent = 'Joey Issa'[index];
+                    letter.textContent = 'Joey Issa.'[index];
                 }
                 letter.style.opacity = '1';
             }, index * 200); // Adjust timing based on typing speed
@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function resetAnimation() {
         letters.forEach(letter => {
-            letter.textContent = '';
+            letter.textContent = '_';
             letter.style.opacity = '0';
         });
         setTimeout(type, 1000); // Start typing after 1 second
     }
 
-    setInterval(resetAnimation, 30000); // Repeat every 90 seconds (1.30 minutes)
+    setInterval(resetAnimation, 10000); // Repeat every 40 seconds
 });

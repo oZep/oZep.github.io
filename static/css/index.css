@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -13,53 +17,8 @@ body {
     text-align: center;
 }
 
-.btn {
-    display: block;
-    margin: 10px auto;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-    border-radius: 5px;
-    border: none; /* Remove the default button border */
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #0056b3;
-}
-
-.github-btn {
-    display: block;
-    margin: 30px auto;
-    padding: 15px 30px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-    border-radius: 5px;
-    border: none; /* Remove the default button border */
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.github-btn:hover {
-    background-color: #555;
-}
-
-
-.letter {
-    display: inline-block;
-    transform: scale(0,1);
-    transform-origin: 0 100%;
-    animation: fillIn 10.0s forwards ease-out;
-    opacity: 0;
-}
-
 .button-container {
-    display: flex;
+    display: absolute;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -76,14 +35,14 @@ body {
 .button-content {
     display: flex;
     align-items: center;
-    background-color: #007bff; /* Adjust button color */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    font-size: 2vw;
 }
 
 .button-content img {
-    width: 30px; /* Adjust icon size */
+    width: 30px; 
     margin-right: 10px;
 }
 
@@ -92,9 +51,16 @@ body {
     position: absolute;
     top: 5px;
     right: 5px;
-    background-color: rgba(0, 0, 0, 0.7); /* Adjust background color */
     color: white;
     padding: 2px 5px;
     border-radius: 3px;
-    font-size: 12px;
+}
+
+.button-icon {
+   width: 3vw;
+   height: 3vw;
+}
+
+.button-icon:hover {
+    border: 2px solid white;
 }
