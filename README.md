@@ -7,4 +7,4 @@ Goals:
 - Adding some cool three.js things + transitions
 - maybe add object movement in the background
 - link/create some educational things to be hosted
-
+- 2 color feature
