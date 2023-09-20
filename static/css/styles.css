@@ -161,6 +161,6 @@ a:active {
 }
 
 #cool-stuff {
-    width: 40vw;
-    height: 40vw;
+    width: 100%;
+    height: 40vh;
 }

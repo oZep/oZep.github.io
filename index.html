@@ -17,6 +17,7 @@
       </script>
   </head>
   <body class="bg-black text-white font-sans">
+    <button onclick="toggleDayNight()">Toggle Day/Night</button>
     <section id="AboutMe">
         <div class="container mx-auto py-16 text-center">
           <div id="nameContainer" class="typed-text text-3xl font-bold mb-4">
@@ -36,37 +37,37 @@
               <div class="button-container grid grid-cols-2 gap-1 m-4"> <!--remove this class on smaller screens-->
                 <a href="https://www.linkedin.com/in/yourusername" class="link-button">
                     <div class="button-content bg-blue-500 relative m-2 p-4 font-bold text-black rounded-md">
-                        <img src="assets/icons/linkedin-icon.png" alt="LinkedIn Logo" class="button-icon absolute top-1 left-1 w-8 h-8 m-2">
+                        <img src="assets/icons-night/linkedin-icon.png" alt="LinkedIn Logo" id="logo" class="button-icon absolute top-1 left-1 w-8 h-8 m-2">
                         LinkedIn
                     </div>
                 </a>
                 <a href="https://github.com/yourusername" class="link-button">
                   <div class="button-content bg-green-600 relative m-2 p-4 font-bold text-black rounded-md"">
-                      <img src="assets/icons/github-icon.png" alt="Github Logo" class="button-icon absolute top-1 left-1 w-8 h-8 m-2">
+                      <img src="assets/icons-night/github-icon.png" alt="Github Logo" id="logo" class="button-icon absolute top-1 left-1 w-8 h-8 m-2">
                       Github
                   </div>
                 </a>
                 <a href="https://yourwebsite.com" class="link-button">
                   <div class="button-content bg-yellow-400 relative m-2 p-4 font-bold text-black rounded-md"">
-                      <img src="assets/icons/port-icon.png" alt="Website Logo" class="button-icon absolute top-1 left-1 w-8 h-8 m-2">
+                      <img src="assets/icons-night/port-icon.png" alt="Website Logo" id="logo" class="button-icon absolute top-1 left-1 w-8 h-8 m-2">
                       Portfolio
                   </div>
                 </a>
                 <a href="https://youritchio.itch.io/" class="link-button">
-                  <div class="button-content bg-red-700 relative m-2 p-4 font-bold text-black rounded-md"">
-                      <img src="assets/icons/itch-icon.png" alt="Itch.io Logo" class="button-icon absolute top-1 left-1 w-8 h-8 m-2">
+                  <div class="button-content bg-red-700 relative m-2 p-4 font-bold text-black rounded-md">
+                      <img src="assets/icons-night/itch-icon.png" alt="Itch.io Logo" id="logo" class="button-icon absolute top-1 left-1 w-8 h-8 m-2">
                       Itch.io
                   </div>
               </a>
               <a href="https://devpost.com/yourusername" class="link-button">
                 <div class="button-content bg-white relative m-2 p-4 font-bold text-black rounded-md">
-                    <img src="assets/icons/devpost-icon.png" alt="Devpost Logo" class="button-icon absolute top-1 left-1 w-8 h-8 m-2">
+                    <img src="assets/icons-night/devpost-icon.png" alt="Devpost Logo" id="logo" class="button-icon absolute top-1 left-1 w-8 h-8 m-2">
                     Devpost
                 </div>
               </a>
               <a href="new-page" class="link-button">
                 <div class="button-content bg-pink-600 relative m-2 p-4 font-bold text-black rounded-md">
-                    <img src="assets/icons/email-icon.png" alt="Email Logo" class="button-icon absolute top-1 left-1 w-8 h-8 m-2">
+                    <img src="assets/icons-night/email-icon.png" alt="Email Logo" id="logo" class="button-icon absolute top-1 left-1 w-8 h-8 m-2">
                     Email
                 </div>
               </a>
@@ -84,8 +85,8 @@
         </a>
       </div>
       <section id="cool-stuff">
-        <script src="https://threejs.org/build/three.min.js"></script>
       </section>
     <script src="static/javascript/index.js"></script>
+    <script src="https://threejs.org/build/three.min.js"></script>
   </body>
 </html>

@@ -26,3 +26,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     setInterval(resetAnimation, 10000); // Repeat every 40 seconds
 });
+
+var isNightMode = false;
+
+function toggleDayNight() {
+    isNightMode = !isNightMode;
+    changeImagePath();
+};
+
+function changeImagePath() {
+    var icons = document.querySelectorAll('#logo');
+    icons.forEach(function(icon) {
+        var currentPath = icon.src;
+        var basePath = isNightMode ? '/assets/icons-night/' : '/assets/icons-day/';
+        var newPath = currentPath.replace(/\/assets\/icons-(day|night)\//, basePath);
+        icon.src = newPath; 
+})};
