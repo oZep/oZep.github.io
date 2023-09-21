@@ -32,6 +32,7 @@ var isNightMode = false;
 function toggleDayNight() {
     isNightMode = !isNightMode;
     changeImagePath();
+    changeBodyColor();
 };
 
 function changeImagePath() {
@@ -42,3 +43,14 @@ function changeImagePath() {
         var newPath = currentPath.replace(/\/assets\/icons-(day|night)\//, basePath);
         icon.src = newPath; 
 })};
+
+function changeBodyColor() {
+    var body = document.getElementById("body");
+    var color = isNightMode ? "black" : "white";
+    body.style.background = color;
+
+    var elementsToChange = document.querySelectorAll("#body *");
+    elementsToChange.forEach(function(element) {
+        element.style.color = isNightMode ? "white" : "black";
+    });
+};
