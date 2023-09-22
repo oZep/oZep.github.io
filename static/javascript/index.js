@@ -30,9 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
 var isNightMode = false;
 
 function toggleDayNight() {
-    isNightMode = !isNightMode;
-    changeImagePath();
     changeBodyColor();
+    changeImagePath();
+    changeToggle();
+    isNightMode = !isNightMode;
 };
 
 function changeImagePath() {
@@ -53,4 +54,12 @@ function changeBodyColor() {
     elementsToChange.forEach(function(element) {
         element.style.color = isNightMode ? "white" : "black";
     });
+};
+
+function changeToggle() {
+    var toggle = document.getElementById("toggle-text");
+    toggle.textContent = isNightMode ? "Night" : "Day";
+
+    var toggleBorder = document.getElementById("toggle-border");
+    toggleBorder.style.borderColor = isNightMode ? 'white' : 'black';
 };
