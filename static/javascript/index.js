@@ -84,7 +84,7 @@ function scrollToBottom() {
     const targetPosition = document.body.scrollHeight - window.innerHeight;
     const startPosition = window.pageYOffset;
     const distance = targetPosition - startPosition;
-    const duration = 2000; // Adjust this to control the scroll speed (in milliseconds)
+    const duration = 5000; // scroll speed (in milliseconds)
     let start = null;
 
     function animateScroll(timestamp) {
