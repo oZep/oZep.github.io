@@ -162,8 +162,8 @@ a:active {
 
 #cool-stuff {
     width: 100%;
-    height: 100vh;
-    background: linear-gradient(to bottom, black, blue, lightblue, white);
+    height: 1400vh;
+    background: linear-gradient(to bottom, black, blue, lightblue);
 }
 
 .toggle-container {
@@ -174,5 +174,8 @@ a:active {
 
 .toggle {
     width: 6rem;
+}
 
+#arrow-up {
+    margin-top: 1370vh;
 }
