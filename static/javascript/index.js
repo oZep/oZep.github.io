@@ -62,4 +62,5 @@ function changeToggle() {
 
     var toggleBorder = document.getElementById("toggle-border");
     toggleBorder.style.borderColor = isNightMode ? 'white' : 'black';
+    toggleBorder.style.background = isNightMode ? 'black' : 'white';
 };
