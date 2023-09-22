@@ -31,6 +31,7 @@ var isNightMode = false;
 
 function toggleDayNight() {
     changeBodyColor();
+    changeSky()
     changeImagePath();
     changeToggle();
     isNightMode = !isNightMode;
@@ -63,4 +64,9 @@ function changeToggle() {
     var toggleBorder = document.getElementById("toggle-border");
     toggleBorder.style.borderColor = isNightMode ? 'white' : 'black';
     toggleBorder.style.background = isNightMode ? 'black' : 'white';
+};
+
+function changeSky() {
+    var sky = document.getElementById("cool-stuff");
+    sky.style.background = isNightMode ? 'linear-gradient(to bottom, black, blue, lightblue, white)' : 'linear-gradient(to bottom, white, lightblue, blue, black)';
 };
