@@ -161,10 +161,9 @@ a:active {
     border: 2px solid white;
 }
 
-#cool-stuff {
+#sky {
     width: 100%;
     height: 1400vh;
-    background: linear-gradient(to bottom, black, blue, lightblue, white);
 }
 
 .toggle-container {
@@ -177,12 +176,8 @@ a:active {
     width: 6rem;
 }
 
-#arrow-up {
-    margin-top: 1370vh;
-}
 
 // Clouds
-
 .cloud {
     position: absolute;
     width: 100%;
@@ -293,7 +288,6 @@ a:active {
         transform: rotate(0deg);
     }
     20% {
-        opacity: 0.8;
         transform: rotate(70deg);
     }
     40% {
@@ -319,6 +313,9 @@ a:active {
     overflow: hidden;
 }
 // ORDER: MOON MERC SATURN VENUS JUP
+.stars div:nth-child(0) { 
+    animation:rotate 20s linear infinite ;
+}
 .stars div:nth-child(1) { 
     animation:rotate 20s linear infinite ;
 }
