@@ -7,6 +7,7 @@
     color: #fff;
     padding: 20px;
     text-align: center;
+    overflow:hidden;
 }
 
 .body {
@@ -179,3 +180,121 @@ a:active {
 #arrow-up {
     margin-top: 1370vh;
 }
+
+// Clouds
+
+.cloud {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.cloud div {
+    position: absolute;
+    display: block;
+}
+
+.cloud div:nth-child(1) {
+    left: 20%; 
+    animation: slide 20s linear infinite;
+    animation-delay: -1s;
+}
+
+.cloud div:nth-child(2) {
+    left: 70%; /* Adjusted */
+    animation: slide 15s linear infinite;
+    animation-delay: -1s;
+}
+
+.cloud div:nth-child(3) {
+    left: 20%; 
+    animation: slide 28s linear infinite;
+    animation-delay: -10s;
+}
+
+.cloud div:nth-child(4) {
+    left: 50%; 
+    padding-top: 20px;
+    animation: slide 29s linear infinite; 
+    animation-delay: -1s;
+}
+
+.cloud div:nth-child(5) {
+    left: 25%; 
+    animation: slide 24s linear infinite;
+    animation-delay: -19s;
+}
+.cloud div:nth-child(6) {
+    left: 20%; 
+    animation: slide 20s linear infinite;
+    animation-delay: -1s;
+}
+
+.cloud div:nth-child(7) {
+    left: 70%; /* Adjusted */
+    animation: slide 15s linear infinite;
+    animation-delay: -1s;
+}
+
+.cloud div:nth-child(8) {
+    left: 20%; 
+    animation: slide 28s linear infinite;
+    animation-delay: -10s;
+}
+
+.cloud div:nth-child(9) {
+    left: 50%; 
+    padding-top: 20px;
+    animation: slide 29s linear infinite; 
+    animation-delay: -1s;
+}
+
+.cloud div:nth-child(10) {
+    left: 50%; 
+    animation: slide 24s linear infinite;
+    animation-delay: -19s;
+}
+
+.cloud div:nth-child(11) {
+    left: 50%; 
+    animation: slide 24s linear infinite;
+    animation-delay: -19s;
+}
+.cloud div:nth-child(12) {
+    left: 50%; 
+    animation: slide 20s linear infinite;
+    animation-delay: -1s;
+}
+
+.cloud div:nth-child(13) {
+    left: 50%; /
+    animation: slide 15s linear infinite;
+    animation-delay: -1s;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-100%);
+    }
+}
+
+
+.stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+}
+.stars div:nth-child(2) { // stars
+
+}
+
