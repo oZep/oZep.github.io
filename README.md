@@ -1,5 +1,5 @@
 # oZep.github.io
-Personal Website [wip]
+Personal Website
 
 Goals:
 - Startup screen with various links [DONE]
