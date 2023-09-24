@@ -317,7 +317,7 @@ a:active {
     animation:rotate 20s linear infinite ;
 }
 .stars div:nth-child(1) { 
-    animation:rotate 20s linear infinite ;
+    animation:rotate 25s linear infinite ;
 }
 .stars div:nth-child(2) {
     animation:rotate 40s linear infinite ;

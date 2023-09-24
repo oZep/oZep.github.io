@@ -42,8 +42,8 @@
             <span class="letter" id="letter9">_</span>
           </div>
 
-          <div class="links">
-              <div class="button-container grid grid-cols-2 gap-1 m-4"> <!--remove this class on smaller screens-->
+          <div class="links" id="link">
+              <div class="button-container grid grid-cols-2 gap-1 m-4" id="stars"> <!--remove this class on smaller screens-->
                 <a href="https://www.linkedin.com/in/joey-issa" class="link-button">
                     <div class="button-content bg-blue-600 relative m-2 p-4 font-bold text-black rounded-md">
                         <img src="assets/icons-night/linkedin-icon.png" alt="LinkedIn Logo" id="logo" class="button-icon absolute top-1 left-1 w-8 h-8 m-2">
@@ -98,13 +98,15 @@
       
       <section id="sky" style="background: linear-gradient(to bottom, black, blue, lightblue, white);">
         <div class="transition flex justify-center items-center">
+          <!--
           <div class="stars">  
-            <div style="top: 75vw;"> <img src="assets/icons-night/Moon.png" height="200px" width="300px" style="z-index: 1;"></img></div> 
-            <div style="top: 75vw;"> <img src="assets/icons-night/Mercury.png" height="200px" width="300px" style="z-index: 1;"></img></div> 
-            <div style="top: 79vw;"> <img src="assets/icons-night/Saturn.png" height="200px" width="300px" style="z-index: 1;"></img></div> 
-            <div style="top: 83vw;"> <img src="assets/icons-night/Venus.png" height="200px" width="300px" style="z-index: 1;"></img></div> 
-            <div style="top: 86vw;"> <img src="assets/icons-night/Jupiter.png" height="200px" width="300px" style="z-index: 1;"></img></div> 
+            <div style="top: 75vw;"> <img src="assets/icons-night/Moon.png" height="200px" width="300px" style="z-index: 1; position: fixed;"></img></div> 
+            <div style="top: 75vw;"> <img src="assets/icons-night/Mercury.png" height="200px" width="300px" style="z-index: 1; position: fixed;"></img></div> 
+            <div style="top: 79vw;"> <img src="assets/icons-night/Saturn.png" height="200px" width="300px" style="z-index: 1; position: fixed;"></img></div> 
+            <div style="top: 83vw;"> <img src="assets/icons-night/Venus.png" height="200px" width="300px" style="z-index: 1; position: fixed;"></img></div> 
+            <div style="top: 86vw;"> <img src="assets/icons-night/Jupiter.png" height="200px" width="300px" style="z-index: 1; position: fixed;"></img></div> 
           </div>
+          -->
           <div class="cloud">
             <div style="top: 1100vh;"> <img src="assets/images/cloud-2.png" height="600px" width="300px"></img></div>
             <div style="top: 1050vh;"> <img src="assets/images/cloud-2.png" height="600px" width="300px"></img></div>
@@ -122,12 +124,12 @@
         </div>
       </section>
 
-      <div class="transition flex justify-center items-center">
+      <div class="transition flex justify-center items-center p-12">
         <button>
           <img src="assets/images/arrow-up.png" alt="Arrow" class="w-20 h-20" id="arrow-up">
         </button>
       </div>
-      <p class="flex justify-center items-center p-4">Do you like the color of the sky?</p>
+      <p class="flex justify-center items-center">Do you like the color of the sky?</p>
 
       <section id="ForOthers">
         <div class="links container mx-auto py-16 text-center">

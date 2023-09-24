@@ -134,3 +134,4 @@ function scrollToTop() {
 
 document.getElementById('arrow-down').addEventListener('click', scrollToBottom);
 document.getElementById('arrow-up').addEventListener('click', scrollToTop);
+
