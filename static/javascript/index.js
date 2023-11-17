@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     letter.textContent = 'Joey Issa.'[index];
                 }
                 letter.style.opacity = '1';
-            }, index * 200); // Adjust timing based on typing speed
+            }, index * 200); // Adjust timing
         });
     }
 
@@ -110,7 +110,7 @@ function scrollToTop() {
     const targetPosition = 0;
     const startPosition = window.pageYOffset;
     const distance = targetPosition - startPosition;
-    const duration = 2000; // Adjust this to control the scroll speed (in milliseconds)
+    const duration = 2000; //  controls the scroll speed (in milliseconds)
     let start = null;
 
     function animateScroll(timestamp) {
