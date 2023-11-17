@@ -30,7 +30,6 @@ import WebGL from 'three/addons/capabilities/WebGL.js';
 
 if ( WebGL.isWebGLAvailable() ) {
 
-	// Initiate function or other initializations here
 	animate();
 
 } else {
