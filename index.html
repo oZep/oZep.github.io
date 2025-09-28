@@ -31,6 +31,20 @@
     <div class="projects" id="projects-github"></div>
     <h3>Youtube Videos</h3>
     <div class="projects" id="projects-youtube"></div>
+    <div class="video-grid">
+    <iframe src="https://www.youtube.com/embed/wRQHIvaQKoc?si=Y76P-15dOYIg_YZz" title="CEG2136 Midterm Review" frameborder="0"
+        allowfullscreen></iframe>
+
+    <iframe src="https://www.youtube.com/embed/JqEaQ6R-HS4?si=GGt0lB8JNpqfWkdz" title="CEG2136 Assembly Review" frameborder="0"
+        allowfullscreen></iframe>
+
+    <iframe src="https://www.youtube.com/embed/KZz4znqBxTc?si=Bov2zcQYX4c8QF04" title="CSI2110 Final Review" frameborder="0"
+        allowfullscreen></iframe>
+
+    <iframe src="https://www.youtube.com/embed/zO_4J8WLrVA?si=tjqRrYE8q3hvJGtX" title="CSI2120 Paradigms Review" frameborder="0"
+        allowfullscreen></iframe>
+    </div>
+    <h3>Blog &#x2197 (Coming Soon!)</h3>
     <center>
         <h4>Contact Me </h4>
         <div style="display: flex; gap: 16px; align-items: center; justify-content: center;">
@@ -151,38 +165,5 @@
                 });
             });
     </script>
-    <script>
-    fetch('https://www.googleapis.com/youtube/v3/search?key=YOUR_API_KEY&channelId=UCDKzZH21Cu3RBu4QvEDgSpQ&part=snippet,id&order=date&maxResults=8')
-        .then(response => response.json())
-        .then(data => {
-            const container = document.getElementById('projects-youtube');
-            container.innerHTML = '';
-            data.items.forEach(video => {
-                if (video.id.kind !== 'youtube#video') return;
-                const a = document.createElement('a');
-                a.className = 'block-wrapper-link fade link-to-software';
-                a.href = `https://www.youtube.com/watch?v=${video.id.videoId}`;
-                a.target = '_blank';
-
-                const title = video.snippet.title;
-                const description = video.snippet.description || '';
-                const image = video.snippet.thumbnails.medium.url;
-
-                a.innerHTML = `
-                    <div class="software-entry gallery-entry fade visible">
-                        <figure>
-                            <img alt="${title}" class="software_thumbnail_image image-replacement" src="${image}">
-                            <figcaption>
-                                <div class="software-entry-name entry-body">
-                                    <h5>${title}</h5>
-                                    <p class="small tagline">${description}</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                `;
-                container.appendChild(a);
-            });
-        });
     </body>
 </html>

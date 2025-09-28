@@ -213,3 +213,17 @@ footer .members img {
   display: block;
   letter-spacing: 1px;
 }
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.video-grid iframe {
+    width: 100%;
+    height: 160px;
+    border-radius: 8px;
+}
