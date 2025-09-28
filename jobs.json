@@ -1,0 +1,51 @@
+[
+    {
+        "company": "Ford Motor Company",
+        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEyJKJoABrJhA/company-logo_200_200/B4EZkze0eEHIAI-/0/1757505341977/ford_motor_company_logo?e=1761782400&v=beta&t=T5C-M7Lq4LaOz6HRS1KCjNlHpSR4XTF7oV8Q-MxEk3M",
+        "title": "Software Developer",
+        "description": "Developed software solutions in Python, Go, and Make to support the ECU Embedded Build team.",
+        "skills": ["Go", "Python", "Java", "Make", "Groovy", "Bash", "Wind River Linux"],
+        "start": "2025-09",
+        "end": "Present",
+        "location": "Kanata, ON, CA"
+    },
+    {
+        "company": "Ford Motor Company",
+        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEyJKJoABrJhA/company-logo_200_200/B4EZkze0eEHIAI-/0/1757505341977/ford_motor_company_logo?e=1761782400&v=beta&t=T5C-M7Lq4LaOz6HRS1KCjNlHpSR4XTF7oV8Q-MxEk3M",
+        "title": "Automation Developer",
+        "description": "Refactored Unreal Engine Blueprints into C++ to boost performance and reliability, streamlined automation workflows, and integrated cross-system tests into Jenkins CI for improved efficiency and coverage.",
+        "skills": ["C++", "Python", "C#", "Batch", "Unreal Engine", "Gauntlet Automation Framework", "Jenkins"],
+        "start": "2025-01",
+        "end": "2025-04",
+        "location": "Kanata, ON, CA"
+    },
+    {
+        "company": "Crypto4A",
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQGLvfJFrc-Ebw/company-logo_200_200/company-logo_200_200/0/1637346995011/crypto4a_logo?e=1761782400&v=beta&t=i07urK-Zscjlom52aJpEEG6jnw1R0n-d-NRfdJ4MnjI",
+        "title": "Software Developer",
+        "description": "Enhanced QxConsole by implementing dynamic component rendering, unsaved changes protection, and a streamlined upgrade assistant, improving user experience, reliability, and efficiency.",
+        "skills": ["React", "Typescript", "OpenAPI", "Tailwind CSS", "Jenkins", "Gerrit", "Nginx", "Docker", "Linux"],
+        "start": "2024-05",
+        "end": "2024-12",
+        "location": "Ottawa, ON, CA"
+    },
+    {
+        "company": "Groops",
+        "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQFfZahNjZxpVw/company-logo_200_200/company-logo_200_200/0/1640723039410/joingroops_logo?e=1761782400&v=beta&t=dri8WlMn7QAHMMWKwifS_mP7wkN2LR19YemdOYR5QyE",
+        "title": "Software Developer Intern",
+        "description": "Led the creation of an automated data extraction and analysis system, improving efficiency and reducing operational costs.",
+        "skills": ["OpenAI Playground", "Python", "Data Analysis"],
+        "start": "2023-09",
+        "end": "2023-12",
+        "location": "Boston, MA, US"
+        },
+        {
+        "company": "University of Ottawa",
+        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQExhZUq9XVYwA/company-logo_200_200/company-logo_200_200/0/1695239223935/uottawa_logo?e=1761782400&v=beta&t=_JcVIo0jNqV5Izr5bRCEZvxLW6MSGCQ4m6Jehx8wcMI",
+        "title": "Bachelor of Science - BSc, Computer Science (Co-op)",
+        "start": "2022-09",
+        "end": "Present",
+        "description": "(CGPA 9.4) Active in uOttawa CS Club, Game Dev Club, and uOttaHack. Awarded multiple scholarships and bursaries, and won 1st place in two game jams.",
+        "location": "Ottawa, ON, CA"
+        }
+]
