@@ -32,7 +32,7 @@
     {
         "company": "Groops",
         "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQFfZahNjZxpVw/company-logo_200_200/company-logo_200_200/0/1640723039410/joingroops_logo?e=1761782400&v=beta&t=dri8WlMn7QAHMMWKwifS_mP7wkN2LR19YemdOYR5QyE",
-        "title": "Software Developer Intern",
+        "title": "Software Developer",
         "description": "Led the creation of an automated data extraction and analysis system, improving efficiency and reducing operational costs.",
         "skills": ["OpenAI Playground", "Python", "Data Analysis"],
         "start": "2023-09",

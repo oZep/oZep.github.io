@@ -63,36 +63,37 @@ a {
 }
 
 .timeline-date {
-  font-size: 0.9em;
+  font-size: 0.6em;
   color: #777;
   margin-bottom: 5px;
 }
 
 .timeline-title {
   margin: 0;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
 }
 
 .timeline-company {
   margin: 2px 0 10px 0;
-  font-size: 1em;
+  font-size: 0.7em;
   color: #444;
 }
 
 .timeline-description {
   margin: 0 0 10px 0;
+  font-size: 0.8em;
   color: #333;
 }
 
 .timeline-skills {
   margin: 0 0 5px 0;
-  font-size: 0.9em;
+  font-size: 0.7em;
   color: #555;
 }
 
 .timeline-location {
-  font-size: 0.8em;
+  font-size: 0.6em;
   color: #999;
 }
 
