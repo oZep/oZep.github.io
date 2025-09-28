@@ -10,8 +10,18 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
 
+li {
+    font-size: 0.7em;
+    margin-bottom: 6px;
+}
+
 a {
     color: green;
+}
+
+::selection {
+    background: yellow;
+    color: inherit;
 }
 
 /* Timeline wrapper */
@@ -101,11 +111,11 @@ a {
 /* General for project cards */
 
 /* Container for all project cards */
-#projects {
+.projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
-  margin: 20px;
+  gap: 10px;
+  margin: 15px 0;
 }
 
 /* Card wrapper */
