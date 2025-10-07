@@ -144,9 +144,12 @@
                     a.className = 'block-wrapper-link fade link-to-software';
                     a.href = repo.html_url;
                     a.target = '_blank';
-
                     const title = repo.name;
-                    const image = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png";
+                    const topics = Array.isArray(repo.topics) && repo.topics.length
+                        ? `<div style="display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0;">
+                            ${repo.topics.map(topic => `<span style="background: #e1e4e8; color: #24292f; border-radius: 12px; padding: 2px 10px; font-size: 12px; display: inline-block;">${topic}</span>`).join('')}
+                           </div>`
+                        : '';
 
                     a.innerHTML = `
                         <div class="software-entry gallery-entry fade visible">
@@ -155,6 +158,7 @@
                                     <div class="software-entry-name entry-body">
                                         <h5>${title}</h5>
                                         <p class="small tagline">${description}</p>
+                                        ${topics}
                                     </div>
                                 </figcaption>
                             </figure>
