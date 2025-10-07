@@ -18,13 +18,12 @@
         "comments": 1
     },
     {
-    "title": "Code With Me",
-    "id": "1078127",
-    "url": "https://devpost.com/software/code-with-me-9ziju2",
-    "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/821/302/datas/medium.png",
-    "description": "Stop struggling alone. Start Coding Together.",
-    "winner": true,
-    "likes": 1,
-    "comments": 0
-}
+        "title": "Code With Me",
+        "url": "https://devpost.com/software/code-with-me-9ziju2",
+        "thumbnail": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/821/302/datas/medium.png",
+        "description": "Stop struggling alone. Start Coding Together.",
+        "winner": true,
+        "likes": 1,
+        "comments": 0
+    }
 ]
