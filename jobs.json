@@ -1,7 +1,7 @@
 [
     {
         "company": "Ford Motor Company",
-        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEyJKJoABrJhA/company-logo_200_200/B4EZkze0eEHIAI-/0/1757505341977/ford_motor_company_logo?e=1761782400&v=beta&t=T5C-M7Lq4LaOz6HRS1KCjNlHpSR4XTF7oV8Q-MxEk3M",
+        "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFord_Motor_Company_Logo.svg&psig=AOvVaw3KafIlZVyIcA8zporOx0_S&ust=1762022949985000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCODVgZSNz5ADFQAAAAAdAAAAABAE",
         "title": "Software Developer",
         "description": "Developed software solutions in Python, Go, and Make to support the ECU Embedded Build team.",
         "skills": ["Go", "Python", "Java", "Make", "Groovy", "Bash", "Wind River Linux"],
@@ -11,7 +11,7 @@
     },
     {
         "company": "Ford Motor Company",
-        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEyJKJoABrJhA/company-logo_200_200/B4EZkze0eEHIAI-/0/1757505341977/ford_motor_company_logo?e=1761782400&v=beta&t=T5C-M7Lq4LaOz6HRS1KCjNlHpSR4XTF7oV8Q-MxEk3M",
+        "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFord_Motor_Company_Logo.svg&psig=AOvVaw3KafIlZVyIcA8zporOx0_S&ust=1762022949985000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCODVgZSNz5ADFQAAAAAdAAAAABAE",
         "title": "Automation Developer",
         "description": "Refactored Unreal Engine Blueprints into C++ to boost performance and reliability, streamlined automation workflows, and integrated cross-system tests into Jenkins CI for improved efficiency and coverage.",
         "skills": ["C++", "Python", "C#", "Batch", "Unreal Engine", "Gauntlet Automation Framework", "Jenkins"],
@@ -21,7 +21,7 @@
     },
     {
         "company": "Crypto4A",
-        "logo": "https://media.licdn.com/dms/image/v2/C560BAQGLvfJFrc-Ebw/company-logo_200_200/company-logo_200_200/0/1637346995011/crypto4a_logo?e=1761782400&v=beta&t=i07urK-Zscjlom52aJpEEG6jnw1R0n-d-NRfdJ4MnjI",
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQGLvfJFrc-Ebw/company-logo_200_200/company-logo_200_200/0/1637346995011/crypto4a_logo?e=2147483647&v=beta&t=FF5m9UaqZZZxDn0GAswQ8CzWd7YjIS5_JgZI12NcsMw",
         "title": "Software Developer",
         "description": "Enhanced QxConsole by implementing dynamic component rendering, unsaved changes protection, and a streamlined upgrade assistant, improving user experience, reliability, and efficiency.",
         "skills": ["React", "Typescript", "OpenAPI", "Tailwind CSS", "Jenkins", "Gerrit", "Nginx", "Docker", "Linux"],
@@ -31,7 +31,7 @@
     },
     {
         "company": "Groops",
-        "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQFfZahNjZxpVw/company-logo_200_200/company-logo_200_200/0/1640723039410/joingroops_logo?e=1761782400&v=beta&t=dri8WlMn7QAHMMWKwifS_mP7wkN2LR19YemdOYR5QyE",
+        "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQFfZahNjZxpVw/company-logo_200_200/company-logo_200_200/0/1640723039410/joingroops_logo?e=2147483647&v=beta&t=5dTgTqF4VK_xt5aZF7YuVsypmw-8MEYRh7xDBlxC7tQ",
         "title": "Software Developer",
         "description": "Led the creation of an automated data extraction and analysis system, improving efficiency and reducing operational costs.",
         "skills": ["OpenAI Playground", "Python", "Data Analysis"],
@@ -41,7 +41,7 @@
         },
         {
         "company": "University of Ottawa",
-        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQExhZUq9XVYwA/company-logo_200_200/company-logo_200_200/0/1695239223935/uottawa_logo?e=1761782400&v=beta&t=_JcVIo0jNqV5Izr5bRCEZvxLW6MSGCQ4m6Jehx8wcMI",
+        "logo": "https://www.uottawa.ca/about-us/sites/g/files/bhrskd336/files/2025-05/uOttawa_logo-wb_dark-grey.png",
         "title": "Bachelor of Science - BSc, Computer Science (Co-op)",
         "start": "2022-09",
         "end": "Present",
