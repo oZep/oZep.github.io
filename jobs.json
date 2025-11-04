@@ -1,7 +1,7 @@
 [
     {
         "company": "Ford Motor Company",
-        "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFord_Motor_Company_Logo.svg&psig=AOvVaw3KafIlZVyIcA8zporOx0_S&ust=1762022949985000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCODVgZSNz5ADFQAAAAAdAAAAABAE",
+        "logo": "https://substackcdn.com/image/fetch/$s_!RhKG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ec0a402-7e25-4ae6-b31f-7551df762938_1200x1200.jpeg",
         "title": "Software Developer",
         "description": "Developed software solutions in Python, Go, and Make to support the ECU Embedded Build team.",
         "skills": ["Go", "Python", "Java", "Make", "Groovy", "Bash", "Wind River Linux"],
@@ -11,7 +11,7 @@
     },
     {
         "company": "Ford Motor Company",
-        "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFord_Motor_Company_Logo.svg&psig=AOvVaw3KafIlZVyIcA8zporOx0_S&ust=1762022949985000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCODVgZSNz5ADFQAAAAAdAAAAABAE",
+        "logo": "https://substackcdn.com/image/fetch/$s_!RhKG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ec0a402-7e25-4ae6-b31f-7551df762938_1200x1200.jpeg",
         "title": "Automation Developer",
         "description": "Refactored Unreal Engine Blueprints into C++ to boost performance and reliability, streamlined automation workflows, and integrated cross-system tests into Jenkins CI for improved efficiency and coverage.",
         "skills": ["C++", "Python", "C#", "Batch", "Unreal Engine", "Gauntlet Automation Framework", "Jenkins"],
