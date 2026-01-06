@@ -1,12 +1,22 @@
 [
     {
+        "company": "Nokia",
+        "logo": "https://brandemia.org/contenido/subidas/2023/02/logo-nokia-1200x670.png",
+        "title": "Software Developer",
+        "description": "Incubation Team",
+        "skills": ["AWS"],
+        "start": "2026-01",
+        "end": "Present",
+        "location": "Kanata, ON, CA"
+    }
+    {
         "company": "Ford Motor Company",
         "logo": "https://substackcdn.com/image/fetch/$s_!RhKG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ec0a402-7e25-4ae6-b31f-7551df762938_1200x1200.jpeg",
         "title": "Software Developer",
-        "description": "Developed software solutions in Python, Go, and Make to support the ECU Embedded Build team.",
+        "description": "Migrated development environments to containerized CI/CD pipelines, engineered dynamic Jenkins security configurations, and optimized core Python scripts to reduce automation run times by 42%.",
         "skills": ["Go", "Python", "Java", "Make", "Groovy", "Bash", "Wind River Linux"],
         "start": "2025-09",
-        "end": "Present",
+        "end": "2025-12",
         "location": "Kanata, ON, CA"
     },
     {
