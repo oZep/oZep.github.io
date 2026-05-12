@@ -1,12 +1,22 @@
 [
     {
+        "company": "Cisco",
+        "logo": "https://logosdown.com/wp-content/uploads/2023/08/cisco-logo-0-2048x2048-1-300x300.png",
+        "title": "Software Developer",
+        "description": "MIG Routing Team, PBR",
+        "skills": ["Cisco IOS XR"],
+        "start": "2026-01",
+        "end": "2026-04",
+        "location": "Kanata, ON, CA"
+    },
+    {
         "company": "Nokia",
         "logo": "https://www.nokia.com/sites/default/files/2023-02/nokia-refreshed-logo-2_1.png?height=284&width=543",
         "title": "Software Developer",
-        "description": "Incubation Team",
-        "skills": ["AWS"],
+        "description": "Joined the Incubation team. Optimized 5G network performance and reliability by developing a multi-threaded simulation framework and training a Recurrent PPO reinforcement learning agent to manage load balancing and routing. Using DRL, LSTM architectures, and Bayesian optimization, I achieved significant reductions in latency and handover failures under dynamic network conditions.",
+        "skills": ["AWS", "Python", "Stable-Baseline3", "Gymnasium", "Optuna", "LLMs", "Deep Reinforcement Learning"],
         "start": "2026-01",
-        "end": "Present",
+        "end": "2026-04",
         "location": "Kanata, ON, CA"
     },
     {
